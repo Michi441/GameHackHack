@@ -25,6 +25,7 @@ gem 'coffee-script', '~> 2.4', '>= 2.4.1'
 gem 'bootstrap', '~> 4.0.0.alpha5'
 gem 'devise'
 gem 'simple_form'
+gem 'rails-dev-tweaks', '~> 1.1'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
