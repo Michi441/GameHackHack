@@ -1,42 +1,4 @@
-<!doctype html>
 
-
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-
-	<title>GameHackHack - Learn how to make Games</title>
-	<meta name="description" content="DigitalBing">
-	<meta name="author" content ="SitePoint">
-
-	<link rel="stylesheet" href="css/application.css">
-	
-	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-	
-
-
-	
-</head>
-
-
-<body>
-	<nav class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container">
-	<ul>
-		 <a class="navbar-brand" href="#">GameBingBing</a>
-
-		 <div class="float-right-nav">
-		  <a class="navbar-brand" href="about.html">About</a>
-		   <a class="navbar-brand" href="#">Unity</a>
-		 <a class="navbar-brand" href="member.html">Sign In</a>
-		<button type="button" class="btn btn-default navbar-btn">New Account</button>
-
-
-	</ul>
-
-		</div>
-		</div>
-	</nav>
 	<section id="HeroSection">
 		<div class="container">
 			
@@ -60,7 +22,7 @@
 
 					  </span>
 					  <div class="signUp">
-					  <button type="button" class="btn btn-primary navbar-btn">Sign In</button>
+					  <%= link_to "Sign In", new_user_session_path, class: "btn btn-primary" %>
 					  <p class="signup">Watch training on both sites, but you will still need to sign in on digitaltutors.com
 
 						<br>
@@ -75,7 +37,7 @@
 
 					  </span>
 					  <div class="signUp">
-					  <button type="button" class="btn btn-primary navbar-btn">Sign Up</button>
+					   <%= link_to "Sign Up", new_user_registration_path, class: "btn btn-primary" %>
 					  <p class="signup">Subscribe or start a free trial above. Or start a subscription on Pluralsight.com and you’ll have access to all Digital-Tutors courses and manage your account on pluralsight.com
 
 					  <br>
@@ -254,7 +216,8 @@
 
 						
 						<p class="learnBy">Try our service out for 14 days!<br>No payment information required!</br>Let's HACK!</p>
-						<button type="button" class="btn btn-primary navbar-btn" id="JoinNow">Join Now!</button>
+						
+						<%= link_to "JoinNow", library_index_path, class: "btn btn-primary navbar-btn", id:"JoinNow" %>
 
 						
 

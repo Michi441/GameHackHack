@@ -1,14 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>DigitalBin</title>
+  
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
+
+	<meta charset="utf-8">
+
+	<title>GameHackHack - Learn how to make Games</title>
+	<meta name="description" content="DigitalBing">
+	<meta name="author" content ="SitePoint">
+
+	<link rel="stylesheet" href="css/application.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+	
+
+
+	
+</head>
+
+
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+	<ul>
+		 <%= link_to "GameBingBing", root_path, class: "navbar-brand" %>
+
+		 <div class="float-right-nav">
+		  <a class="navbar-brand" href="about.html">About</a>
+		   <a class="navbar-brand" href="#">Unity</a>
+		 <a class="navbar-brand" <%= link_to "Sign In", new_user_session_path %></a>
+		<%= link_to "New Account", new_user_registration_path, class: "btn btn-default navbar-btn" %>
+
+
+	</ul>
+
+		</div>
+		</div>
+	</nav>
+
+<p><div class="notice"><%= notice %></div></p>
+<p><div class="alert"><%= alert %></div></p>
+
 <%= yield %>
 
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		
 </body>
 </html>
