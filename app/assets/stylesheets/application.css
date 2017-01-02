@@ -1,0 +1,339 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@media only screen and (device-width: 768px) {
+  /* For general iPad layouts */
+
+   #DescriptHero{
+
+	  width: 100px;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+  div#DescriptHero{
+
+	  width: 600px;
+	  
+	  margin-right: auto;
+	  margin-left: auto;
+  }
+
+  div.jumbotron{
+
+
+	  height: 300px;
+	  width: auto;
+  }
+
+  div.col-md-4{
+
+	  padding: 25px;
+	  margin-bottom: 150px;
+  }
+
+  
+
+  img#unity-logo{
+
+	  height: 90px;
+	  width: auto;
+  }
+  img.img-circle{
+
+	  height: 50px;
+	  width: 50px;
+	  margin-top: -60px;
+	
+  }
+
+  section#HeroSection3{
+
+	  height: 1800px;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  /* For landscape layouts only */
+
+
+ div#DescriptHero{
+
+	  width: 300px;
+	  
+	  margin-right: auto;
+	  margin-left: 30px;
+  }
+
+  div.jumbotron{
+
+
+	  height: 300px;
+	  width: auto;
+  }
+
+  
+
+  img#unity-logo{
+
+	  height: 90px;
+	  width: auto;
+  }
+  img.img-circle{
+
+	  height: 50px;
+	  width: 50px;
+	  margin-top: -60px;
+	
+  }
+
+  section#HeroSection3{
+
+	  height: 600px;
+  }
+}
+
+
+ 
+ body, section{
+
+	 background-color: #333;
+ }
+p,h1,h2,h3, h1.Library{
+	color: #fff;
+}
+
+body,h2{
+
+font-family: "Indie Flower", cursive;
+}
+		
+
+#DescriptHero{
+
+	width: 600px;
+	height: auto;
+	margin-left: 150px;
+	margin-right: auto;
+	font-family: 'Indie Flower', cursive;
+
+}
+
+
+div.jumbotron{
+
+	background-color: #555;
+	padding-top: 50px;
+	
+	h2{
+
+		color: #fff;
+	}
+}
+
+
+#HeroSection{
+
+	
+	height: 800px;
+
+}
+
+#HeroSection2{
+	height: 600px;
+
+	
+}
+
+#HeroSection3{
+
+	height: 600px;
+	
+}
+
+#HeroSection4{
+
+	margin-top: 300px;
+	height: 200px;
+}
+
+div.container2{
+
+	height: 300px;
+}
+
+
+
+h2.Who{
+
+	text-align: center;
+	font-family: "Indie Flower", cursive;
+	}
+
+div.row{
+
+	text-align: center;
+	padding: 50px;
+}
+
+span.glyphicon.glyphicon-user{
+
+	font-size: 25px;
+	margin-top: 50px;
+	margin-left: -25px;
+	margin-right: auto;
+}
+
+span.glyphicon.glyphicon-pencil{
+
+	font-size: 25px;
+	margin-top: 50px;
+	margin-left: -25px;
+	margin-right: auto;
+}
+
+p.signup{
+
+	text-align: left;
+	font-size: 15px;
+	font-weight: 600;
+	color: #ccc;
+}
+
+div.signUp{
+
+	padding-left: 25px;
+	padding-right: 50px;
+}
+
+img.img-rounded{
+
+	
+	width: 500px;
+	height: auto;
+	margin-top: 30px;
+
+}
+
+#unity-logo{
+
+	width: 500px;
+	height: auto;
+	margin-top: -10px;
+}
+
+img.img-circle{
+
+	width: 100px;
+	height: 100px;
+}
+
+p.learnBy{
+
+	font-family: "Indie Flower", cursive;
+	margin-left: 20px;
+	margin-right: auto;
+	text-align: center;
+}
+
+div.Library{
+	
+	margin-top: -150px;
+	text-align: center;
+}
+
+h1.Library{
+
+	font-family: "Indie Flower", cursive;
+}
+
+div.row3{
+
+	margin-top: 60px;
+
+}
+
+h2.LibH2{
+
+	font-family: "Indie Flower", cursive;
+
+}
+
+div.embedded{
+
+	height: 100px;
+	width: 500px;
+	padding: 25px;
+	padding-bottom: 30px;
+	text-align: left;
+	
+	
+}
+
+
+p.ProjectLearn{
+
+	
+	margin-left: 180px;
+	margin-right: auto;
+	font-family: "Indie Flower";
+	font-size: 18px;
+
+
+
+}
+
+div.row3{
+
+	
+}
+
+
+div.float-right-nav{
+
+
+	float: right;
+}
+
+footer{
+
+	text-align: center;
+}
+
+#JoinNow{
+
+	font-size: 30px;
+	margin-left: 190px;
+	margin-right: auto;
+}
+
+
+img#unity-logo2{
+
+	height: 150px;
+	width: auto;
+}
+
+
+div.container4{
+
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 300px;
+}
+
