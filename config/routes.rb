@@ -1,13 +1,7 @@
 Rails.application.routes.draw do
   resources :videos
-  get 'library/index'
-
-  get 'library/show'
-
-  get 'library/new'
-
-  get 'library/edit'
-
+  resources :welcome
+  
   devise_for :users
   get 'welcome/index'
 

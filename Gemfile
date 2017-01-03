@@ -20,12 +20,12 @@ gem 'jquery-rails'
 gem 'turbolinks'
 
 
-<<<<<<< HEAD
+
 gem 'coffee-script-source', '~> 1.8.0'
-=======
+
 
 gem 'coffee-script', '~> 2.4', '>= 2.4.1'
->>>>>>> 1beea02073196781a0cd26051b62b662531c6c6c
+
 gem 'bootstrap', '~> 4.0.0.alpha5'
 gem 'devise'
 gem 'simple_form'

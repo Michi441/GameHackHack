@@ -14,7 +14,7 @@
  *= require_self
  */
 
-<<<<<<< HEAD
+
 @media only screen and (device-width: 768px) {
   /* For general iPad layouts */
 
@@ -108,8 +108,7 @@
 }
 
 
- 
- body, section{
+body, section{
 
 	 background-color: #333;
  }
@@ -119,11 +118,11 @@ p,h1,h2,h3, h1.Library{
 
 body,h2{
 
-=======
+
 
 
 body,h2{
->>>>>>> 1beea02073196781a0cd26051b62b662531c6c6c
+
 font-family: "Indie Flower", cursive;
 }
 		
@@ -141,7 +140,7 @@ font-family: "Indie Flower", cursive;
 
 div.jumbotron{
 
-<<<<<<< HEAD
+
 	background-color: #555;
 	padding-top: 50px;
 	
@@ -149,10 +148,10 @@ div.jumbotron{
 
 		color: #fff;
 	}
-=======
+
 	
 	margin-top: 150px;
->>>>>>> 1beea02073196781a0cd26051b62b662531c6c6c
+
 }
 
 
