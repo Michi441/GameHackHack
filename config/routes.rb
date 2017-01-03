@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'welcome/new'
+
   resources :videos
   resources :welcome
   
